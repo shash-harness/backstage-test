@@ -4,15 +4,15 @@ metadata:
   name: pager-duty
   description: pipeline build and deploy
   annotations:
-       harness.io/project-url: https://app.harness.io/ng/#/account/vpCkHKsDSxK9_KYfjCTMKA/cd/orgs/default/projects/PREQA_NG_Pipelines/
-       jira/project-key: <example-jira-project-key>
-       jira/component: <example-component> # optional, you might skip this value to fetch data for all components
-       jira/token-type: Bearer # optional, used for Activity stream feed. If you are using Basic auth you can skip this.
-       pagerduty.com/service-id: PS5XKY7
+    harness.io/project-url: https://app.harness.io/ng/#/account/vpCkHKsDSxK9_KYfjCTMKA/cd/orgs/default/projects/PREQA_NG_Pipelines/
+    jira/project-key: <example-jira-project-key>
+    jira/component: <example-component> # optional, you might skip this value to fetch data for all components
+    jira/token-type: Bearer # optional, used for Activity stream feed. If you are using Basic auth you can skip this.
+    pagerduty.com/service-id: PS5XKY7
 
   tags:
     - java
-  
+
   links:
     - url: https://example.com/user
       title: Examples Users
