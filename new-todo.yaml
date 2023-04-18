@@ -37,4 +37,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: @harness/ui-council
+  owner: '@harness/ui-council'
