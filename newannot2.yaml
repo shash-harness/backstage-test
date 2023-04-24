@@ -6,6 +6,7 @@ metadata:
   annotations:
        harness.io/project-url: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/PREQA_NG_Pipelines/details
        pagerduty.com/service-id: PS5XKY7
+       github.com/project-slug: backstage/backstage
   tags:
     - java
   
