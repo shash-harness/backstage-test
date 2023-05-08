@@ -5,7 +5,7 @@ metadata:
   description: pipeline build and deploy
   annotations:
        harness.io/project-url: https://stress.harness.io/ng/#/account/rzjR8UyZTpOAd6SLDfdBuw/cd/orgs/default/projects/Nataraja/
-       
+       jenkins.io/job-full-name: UI/harness-samples
        jira/project-key: <example-jira-project-key>
        jira/component: <example-component> # optional, you might skip this value to fetch data for all components
        jira/token-type: Bearer # optional, used for Activity stream feed. If you are using Basic auth you can skip this.
