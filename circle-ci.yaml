@@ -33,4 +33,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-cme
+  owner: harness_account_all_users
