@@ -6,7 +6,7 @@ spec:
   system: Abhishek
 apiVersion: backstage.io/v1alpha1
 metadata:
-  name: Github
+  name: Github-2
   tags: []
   annotations:
     harness.io/cd-serviceId: Github
