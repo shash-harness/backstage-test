@@ -6,6 +6,7 @@ metadata:
   annotations:
     jira/project-key: IDP
     github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
 
   tags:
     - java
