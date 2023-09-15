@@ -5,7 +5,7 @@ metadata:
   description: pipeline build and deploy
   annotations:
     harness.io/project-url: https://uat.harness.io/ng/account/I3TdrVLBSd2Zr2ttor7Z2A/cf/orgs/default/projects/HarnessFeatureFlags/
-    grafana/dashboard-selector: "folderUrl == '/dashboards/f/JWu5C_34z/iac'"
+    grafana/dashboard-selector: "folderUrl == 'https://grafana.harness.io/dashboards/f/W9TAIwY4k/chaos'"
   tags:
     - java
 
