@@ -5,7 +5,7 @@ metadata:
   description: pipeline build and deploy
   annotations:
     harness.io/project-url: https://uat.harness.io/ng/account/I3TdrVLBSd2Zr2ttor7Z2A/cf/orgs/default/projects/HarnessFeatureFlags/
-    grafana/dashboard-selector: "tags @> 'Cloud Monitoring'"
+    grafana/dashboard-selector: "tags @> 'CD'"
   tags:
     - java
 
