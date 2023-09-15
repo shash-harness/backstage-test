@@ -5,7 +5,7 @@ metadata:
   description: pipeline build and deploy
   annotations:
     harness.io/project-url: https://uat.harness.io/ng/account/I3TdrVLBSd2Zr2ttor7Z2A/cf/orgs/default/projects/HarnessFeatureFlags/
-    grafana/dashboard-selector: "title == 'Cluster Metrics' || title == 'Queue Service Dashboard' || title == 'CD Core Services'"
+    grafana/dashboard-selector: "url == '/d/y5I3FbrVk/delegates-summary' || url == '/d/HCByoHU4k/code-qa' || url == '/d/VTLvmj6Vz/error-logs-tracker'"
   tags:
     - java
 
