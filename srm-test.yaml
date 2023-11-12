@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: harness-cd-new-annotation
+  annotations:
+    harness.io/services: |
+      SRM Service: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/cvng/projects/ecommerce/services/Order
+    grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  providesApis: [example-grpc-api]
