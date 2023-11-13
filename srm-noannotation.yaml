@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: harness-srm2
+  annotations:
+    grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  providesApis: [example-grpc-api]
