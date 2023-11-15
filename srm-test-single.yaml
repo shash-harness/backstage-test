@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Order-service2
+  annotations:
+    harness.io/services: |
+      test qa: https://qa.harness.io/ng/account/-k53qRQAQ1O7DBLb9ACnjQ/home/orgs/Flipkart/projects/ecommerce/services/Test
+    grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  providesApis: [example-grpc-api]
