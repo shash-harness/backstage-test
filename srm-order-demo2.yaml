@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: order-demo
+  name: order-demo2
   annotations:
     harness.io/services: |
-      order-service: https://stress.harness.io/ng/account/-k53qRQAQ1O7DBLb9ACnjQ/all/orgs/flipkart/projects/ecommerce/settings/services/Order?tab=configuration
+      order-service: https://stress.harness.io/ng/account/-k53qRQAQ1O7DBLb9ACnjQ/all/orgs/flipkart/projects/ecommerce/services/Order
     grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
 spec:
   type: service
