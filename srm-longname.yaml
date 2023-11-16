@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: srm-longname
+  annotations:
+    harness.io/services: |
+      order-service: https://stress.harness.io/ng/account/-k53qRQAQ1O7DBLb9ACnjQ/module/cv/orgs/cvng/projects/SRM_PREQA_Sign_Off_Automation/services/aksjkSKjkskjaskjhajksaksjkSKjkskjaskjhajksaksjkSKjkskjaskjhajksaksjkSKjkskjaskjhajksaksjkSKjkskjaskjhajks
+    grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  providesApis: [example-grpc-api]
